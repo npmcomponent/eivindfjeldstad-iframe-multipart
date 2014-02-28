@@ -1,7 +1,7 @@
-var submittable = require('submittable');
-var events = require('event')
-var value = require('value');
-var uid = require('uid');
+var submittable = require('yields-submittable');
+var events = require('component-event')
+var value = require('component-value');
+var uid = require('matthewmueller-uid');
 
 /**
  * Expose `multipart`

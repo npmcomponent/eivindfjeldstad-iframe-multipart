@@ -1,9 +1,19 @@
 {
-  "name": "iframe-multipart",
-  "repo": "eivindfjeldstad/iframe-multipart",
+  "name": "eivindfjeldstad-iframe-multipart",
+  "description": "multipart transport for old browsers",
   "version": "0.1.0",
-  "devDependencies": {
-    "express": "~3.4.8",
-    "busboy": "0.0.15"
-  }
+  "keywords": [
+    "multipart",
+    "formdata",
+    "upload",
+    "iframe"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "component-value": "git://github.com/npmcomponent/component-value.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "matthewmueller-uid": "git://github.com/npmcomponent/matthewmueller-uid.git",
+    "yields-submittable": "git://github.com/npmcomponent/yields-submittable.git"
+  },
+  "license": "MIT"
 }
